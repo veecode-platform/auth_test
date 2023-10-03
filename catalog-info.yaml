@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "auth_test"
+  annotations:
+    github.com/project-slug: veecode-platform/auth_test
+    backstage.io/techdocs-ref: dir:.
+    github.com/workflows: terraform-deploy.yml,terraform-destroy.yml
+spec:
+  type: devops
+  lifecycle: experimental
+  owner: "group:default/admin"
+  
